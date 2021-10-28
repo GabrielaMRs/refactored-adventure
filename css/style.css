@@ -10,7 +10,7 @@ header {
 
 .menu{
     position: relative;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -61,29 +61,35 @@ nav a{
 }
 
 .homeblog h3{
-    padding: 0 0 0 200px;
+    padding: 20px 0 0 200px;
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
     font-weight: bold;
     width:400px;
+    line-height: normal;
 }
 
 .homeblog p{
     color: #FFFFFF;
     font-size: 18px;
-    padding: 0 0 0 200px;
+    padding: 20px 0 0 200px;
     width:400px;
     text-align: justify;
+    line-height: normal;
 }
 
 .homeblog h4{
     clear: right;
 }
 
-.imgpc{
+.imgmoco{
     float: right;
     width: auto;
+}
+
+.homeblog > .imgmoco, .textinho{
+    display:inline-block;
 }
 
 .nft{
@@ -91,7 +97,7 @@ nav a{
     border: 2px solid linear-gradient(#FD749B, #281ACB);
     border-radius: 10px;
     display: inline-block;
-    margin: 0 160px;
+    margin: 20px 200px;
 }
 
 .titulo-post{
@@ -128,12 +134,20 @@ nav a{
     padding: 20px 0 0 0;
 }
 
-.xmas{
+.merryxmas{
     position: relative;
     border: 2px solid linear-gradient(#FD749B, #281ACB);
     border-radius: 10px;
     display: inline-block;
-    margin: 0 160px;
+    margin: 20px 200px;
+}
+
+.smartcontracts{
+    position: relative;
+    border: 2px solid linear-gradient(#FD749B, #281ACB);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 200px;
 }
 
 footer{
@@ -144,5 +158,7 @@ footer{
 
 footer > p{
     color: white;
-    padding: 0 20px 10px 0;
+    padding: 30px 50px 20px 20px;
+    clear:right;
+    font-size: 12px;
 }
