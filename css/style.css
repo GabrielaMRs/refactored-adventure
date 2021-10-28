@@ -88,20 +88,13 @@ nav a{
 
 .nft{
     position: relative;
-    border: linear-gradient(#FD749B, #281ACB);
+    border: 2px solid linear-gradient(#FD749B, #281ACB);
     border-radius: 10px;
-    width: auto;
     display: inline-block;
     margin: 0 160px;
 }
 
-img.pessoas{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h6{
+.titulo-post{
     text-align: center;
     text-transform: uppercase;
     font-size: 32px;
@@ -127,6 +120,20 @@ h6{
     width: 700px;
     margin: 0 auto;
     font-size: 16px;
+}
+
+.descubra{
+    text-align: center;
+    margin: 0 550px;
+    padding: 20px 0 0 0;
+}
+
+.xmas{
+    position: relative;
+    border: 2px solid linear-gradient(#FD749B, #281ACB);
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 160px;
 }
 
 footer{
