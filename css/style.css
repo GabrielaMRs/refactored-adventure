@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background:#E5E5E5;
+    background:#FFFFFF;
     padding: 20px 0;
     min-height: auto;
 }
@@ -46,15 +46,13 @@ nav a{
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
     width: 100%;
-    border-color: black;
-    border-radius: 10px;
 }
 
 .homeblog h3{
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 12px;
-    padding: 40px 0 0 200px;
+    padding: 300px 0 0 200px;
 }
 
 .homeblog h4{
@@ -63,17 +61,21 @@ nav a{
     font-weight: bold;
     color: #FFFFFF;
     font-weight: bold;
+    width:400px;
 }
 
 .homeblog p{
     color: #FFFFFF;
     font-size: 18px;
-    padding: 0 0 0 200px;
+    padding: 0px 0 0 200px;
+    width:400px;
+    text-align: justify;
 }
 
 footer{
     background-color: black;
-    min-height: 100px;
+    min-height: 50px;
+    width: 100%;
 }
 
 footer > p{
