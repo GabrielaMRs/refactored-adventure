@@ -25,6 +25,10 @@ header {
     text-transform: uppercase;
 }
 
+.menu h2:last-letter{
+    color: yellow;
+} /*por que esse não deu certo? */
+
 nav {
     position: absolute;
     top:-10px;
@@ -46,13 +50,14 @@ nav a{
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
     width: 100%;
+    display: inline-block;
 }
 
 .homeblog h3{
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 12px;
-    padding: 300px 0 0 200px;
+    padding: 200px 0 0 200px;
 }
 
 .homeblog h4{
@@ -67,9 +72,17 @@ nav a{
 .homeblog p{
     color: #FFFFFF;
     font-size: 18px;
-    padding: 0px 0 0 200px;
+    padding: 0 0 0 200px;
     width:400px;
     text-align: justify;
+}
+
+.homeblog h5{
+    clear: right;
+}
+
+.imgpc{
+    float: right;
 }
 
 footer{
