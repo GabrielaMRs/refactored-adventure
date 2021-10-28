@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background:#E5E5E5;
+    padding: 20px 0;
+    min-height: auto;
+}
+
+.menu{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nuvem{
+    background-position: center;
+    background-image: url(../imagens/bitcoin1.png);
+    background-repeat: no-repeat;
+    padding: 0 10px;
+}
+
+.menu h2{
+    text-transform: uppercase;
+}
+
+nav {
+    position: absolute;
+    top:-10px;
+    right: 290px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+nav a{
+    font-size: 21px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.homeblog{
+    background: linear-gradient(#FD749B, #281ACB);
+    width: 100%;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.homeblog h3{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.homeblog h4{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.homeblog p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+    min-height: 100px;
+}
+
+footer > p{
+    color: white;
+}
