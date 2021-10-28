@@ -54,10 +54,11 @@ nav a{
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 12px;
-    padding-top: 20px;
+    padding: 40px 0 0 200px;
 }
 
 .homeblog h4{
+    padding: 0 0 0 200px;
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
@@ -67,6 +68,7 @@ nav a{
 .homeblog p{
     color: #FFFFFF;
     font-size: 18px;
+    padding: 0 0 0 200px;
 }
 
 footer{
