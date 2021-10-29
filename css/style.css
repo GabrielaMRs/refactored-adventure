@@ -1,81 +1,221 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Lista de notícias</title>
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
-        <link rel="stylesheet" href="css/reset.css"> 
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
-    </head>
+header {
+    background:#FFFFFF;
+    padding: 20px 0;
+    min-height: auto;
+}
 
-    <body>
-        <header>
-            <section class="menu">
-                <h1><img class="nuvem" src="imagens/Path-18_5_.png"><img class="logo" src="imagens/CoinBase.png" height="20px"></h1>    
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="post.html">Post</a></li>
-                        </ul>
-                    </nav>
-                <p><img class="estrela" src="imagens/Rectangle 285.png"></p>
-            </section>
-        </header>
+.menu{
+    position: relative;
+    width: 100%;
+}
 
-        <main>
-            <section class="homeblog">
-                    <div class="textinho">
-                        <p id="home">Home/Blog</p>
-                        <h3>O maior blog para cryptoinvestidores.</h3>
-                        <p>Fique por dentro de tudo que acontece no blog mais atualizado sobre cryptomoedas e mercado financeiro.</p>
-                    </div>
-                    <div class="imgmoco"><h4><img src="imagens/imgpc.png"></h4></div>
-            </section>
+.nuvem{
+    background-position: center;
+    background-image: url(../imagens/bitcoin1.png);
+    background-repeat: no-repeat;
+    padding: 0 10px;
+}
 
-            <div class="nft">
-                <h5><img class="img-post" src="imagens/pessoas.png"></h5>
-                <div class="parte-de-baixo">
-                    <h6 class="titulo-post">NFT: Tudo sobre a tecnologia do momento!</h6>
-                    <p class="data"> 20/10/2021 | Business</p>
-                    <p class="texto">Tokens não-intercambiáveis (NFT) utilizam a tecnologia das criptomoedas para criar ativos digitais únicos. É possível registrar a posse de itens colecionáveis, de imóveis, e até mesmo personagens de jogos com sua respectiva pontuação, itens e afins.</p>
-                    <div class="descubra">
-                        <p>Descubra</p>
-                    </div>
-                </div>
-            </div>
+.estrela{
+    background: linear-gradient(#FD749B, #281ACB);
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;
+}
 
-            <div class="merryxmas">
-                <h5><img class="img-post" src="imagens/xmas.png"></h5>
-                <div class="parte-de-baixo">
-                    <h6 class="titulo-post">Conheça as novas criptomoedas que chegeram.</h6>
-                    <p class="data"> 19/10/2021 | Business</p>
-                    <p class="texto">Sabemos o quanto importante é ter uma ampla listagem de ativos disponíveis para negociação, porém, nossa prioridade é sempre a segurança. </p>
-                    <div class="descubra">
-                        <p>Descubra</p>
-                    </div>
-                </div>
-            </div>
+.estrela p{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:20px;
+}
 
-            <div class="smartcontracts">
-                <h5><img class="img-post" src="imagens/401 1.png"></h5>
-                <div class="parte-de-baixo">
-                    <h6 class="titulo-post">Conheça as novas criptomoedas que chegaram.</h6>
-                    <p class="data"> 18/10/2021 | Business</p>
-                    <p class="texto">Sabemos o quanto importante é ter uma ampla listagem de ativos disponíveis para negociação, porém, nossa prioridade é sempre a segurança. </p>
-                    <div class="descubra">
-                        <p>Descubra</p>
-                    </div>
-                </div>
-            </div>
-        </main>
-        
-        <footer>
-            <h1><img class="nuvem" src="imagens/Path-18_5_.png"><img class="logo" src="imagens/CoinBase.png" height="20px"></h1>
-            <p>&copy; 2021 Desenvolvido por: Gabriela Rodrigues</p>
-        </footer>
+.estrepa p:last-child{
+    color: yellow;
+}
 
-    </body>
+nav {
+    position: absolute;
+    top:10px;
+    left: 500px;
+}
 
-</html>
+nav li {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+nav a{
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-image: url(../imagens/Indicator.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+nav a:active{
+    background-image: url(../imagens/Indicator.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.homeblog{
+    background: linear-gradient(#FD749B, #281ACB);
+    width: 100%;
+    display: inline-block;
+}
+
+#home{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 200px 0 0 200px;
+}
+
+.homeblog h3{
+    padding: 20px 0 0 200px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-weight: bold;
+    width:400px;
+    line-height: normal;
+}
+
+.homeblog p{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 20px 0 200px 200px;
+    width:400px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.imgmoco{
+    float: right;
+    width: auto;
+    padding: 30px 170px;
+}
+
+.homeblog > .imgmoco, .textinho{
+    display: inline-block;
+}
+
+.nft{
+    position: relative;
+    display: block;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.img-post{
+    border: 2px solid transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.merryxmas{
+    position: relative;
+    display: block;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.smartcontracts{
+    position: relative;
+    display: block;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.parte-de-baixo{
+    background-image: url(../imagens/borda.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    margin-top: -30px;
+    margin-left: 2px;
+}
+
+.titulo-post{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 45px;
+    background-image: linear-gradient(#FD749B, #281ACB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    padding: 30px 0 10px 0;
+}
+
+.data{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 0 0 20px 0;
+    padding: 10px 0 10px 0;
+}
+
+.texto{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: normal;
+    padding: 20px 0 50px 0;
+}
+
+.descubra{
+    background: linear-gradient(#FD749B, #281ACB);
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+}
+
+.descubra p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    min-height: 50px;
+    width: 100%;
+}
+
+footer > p{
+    color: #989898;
+    padding: 30px 50px 20px 20px;
+    clear:right;
+    font-size: 12px;
+}
+
+.nuvembranca{
+    background-position: center;
+    background-image: url(../imagens/bitcoinbranco.png);
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+}
