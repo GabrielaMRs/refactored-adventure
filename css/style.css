@@ -11,7 +11,6 @@ header {
 .menu{
     position: relative;
     width: 100%;
-    margin: 0 auto;
 }
 
 .nuvem{
@@ -21,18 +20,20 @@ header {
     padding: 0 10px;
 }
 
-.menu h2{
-    text-transform: uppercase;
+.menu > .estrela{
+    padding: 0 15%;
 }
 
-.menu h2:last-letter{
+.estrela:last-child{
     color: yellow;
+
 } /*por que esse não deu certo? */
+
 
 nav {
     position: absolute;
-    top:-10px;
-    right: 290px;
+    top:10px;
+    left: 500px;
 }
 
 nav li {
@@ -73,31 +74,51 @@ nav a{
 .homeblog p{
     color: #FFFFFF;
     font-size: 18px;
-    padding: 20px 0 0 200px;
+    padding: 20px 0 200px 200px;
     width:400px;
     text-align: justify;
     line-height: normal;
 }
 
-.homeblog h4{
-    clear: right;
-}
-
 .imgmoco{
     float: right;
     width: auto;
+    padding: 30px 170px;
 }
 
 .homeblog > .imgmoco, .textinho{
-    display:inline-block;
+    display: inline-block;
 }
 
 .nft{
     position: relative;
-    border: 2px solid linear-gradient(#FD749B, #281ACB);
-    border-radius: 10px;
     display: inline-block;
-    margin: 20px 200px;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.merryxmas{
+    position: relative;
+    display: inline-block;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.smartcontracts{
+    position: relative;
+    display: inline-block;
+    margin: 20px 300px;
+    padding-top: 50px;
+    height: 1000px;
+}
+
+.parte-de-baixo{
+    background-image: url(../imagens/borda.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    margin-top: -20px;
 }
 
 .titulo-post{
@@ -111,6 +132,7 @@ nav a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
+    padding: 30px 0 10px 0;
 }
 
 .data{
@@ -119,36 +141,25 @@ nav a{
     margin: 0 auto;
     font-size: 10px;
     padding: 0 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 .texto{
-    text-align: justify;
-    width: 700px;
+    text-align: center;
+    width: 900px;
     margin: 0 auto;
     font-size: 16px;
+    line-height: normal;
+    padding: 10px 0 10px 0;
 }
 
 .descubra{
     text-align: center;
     margin: 0 550px;
     padding: 20px 0 0 0;
+    padding: 10px 0 10px 0;
 }
 
-.merryxmas{
-    position: relative;
-    border: 2px solid linear-gradient(#FD749B, #281ACB);
-    border-radius: 10px;
-    display: inline-block;
-    margin: 20px 200px;
-}
-
-.smartcontracts{
-    position: relative;
-    border: 2px solid linear-gradient(#FD749B, #281ACB);
-    border-radius: 10px;
-    display: inline-block;
-    margin: 20px 200px;
-}
 
 footer{
     background-color: black;
@@ -157,7 +168,7 @@ footer{
 }
 
 footer > p{
-    color: white;
+    color: #989898;
     padding: 30px 50px 20px 20px;
     clear:right;
     font-size: 12px;
