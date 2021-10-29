@@ -169,15 +169,24 @@ nav a:active{
     margin: 0 auto;
     font-size: 16px;
     line-height: normal;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 50px 0;
 }
 
 .descubra{
-    text-align: center;
-    margin: 0 550px;
-    padding: 40px 0 0 0;
+    background: linear-gradient(#FD749B, #281ACB);
+    border: 2px solid transparent;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
 }
 
+.descubra p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: white;
+}
 
 footer{
     background-color: black;
