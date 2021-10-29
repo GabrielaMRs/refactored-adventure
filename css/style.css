@@ -42,10 +42,22 @@ nav li {
 }
 
 nav a{
-    font-size: 21px;
+    font-size: 14px;
     color: #333333;
     font-weight: bold;
     text-decoration: none;
+}
+
+nav a:hover{
+    background-image: url(../imagens/Indicator.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+nav a:active{
+    background-image: url(../imagens/Indicator.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 .homeblog{
@@ -98,6 +110,12 @@ nav a{
     height: 1000px;
 }
 
+.img-post{
+    border: 2px solid transparent;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
 .merryxmas{
     position: relative;
     display: inline-block;
@@ -118,7 +136,8 @@ nav a{
     background-image: url(../imagens/borda.png);
     background-repeat: no-repeat;
     padding-bottom: 200px;
-    margin-top: -20px;
+    margin-top: -30px;
+    margin-left: 2px;
 }
 
 .titulo-post{
@@ -150,14 +169,13 @@ nav a{
     margin: 0 auto;
     font-size: 16px;
     line-height: normal;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 10px 0;
 }
 
 .descubra{
     text-align: center;
     margin: 0 550px;
-    padding: 20px 0 0 0;
-    padding: 10px 0 10px 0;
+    padding: 40px 0 0 0;
 }
 
 
