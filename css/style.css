@@ -3,15 +3,14 @@ body {
 }
 
 header {
-    background:#FFFFFF;
-    padding: 20px 0;
+    padding: 10px 0 10px 0;
     min-height: auto;
+    margin: 0 auto;
 }
 
 .menu{
-    position: relative;
-    width: 100%;
-    display: flex;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
 }
 
 .nuvem{
@@ -30,25 +29,25 @@ header {
 }
 
 .estrela p{
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding-top:20px;
+    padding-top: 15px;
 }
 
-.estrepa p:last-child{
-    color: yellow;
+.estrela p:last-child{
+    color:yellow;
 }
+
+/* sigo sem entender o motivo de não ter funcionado... o simbolo não pode ser considerado child? */
 
 nav {
-    position: absolute;
-    top:10px;
-    left: 500px;
+    padding: 0 90px 0 90px;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 90px;
 }
 
 nav a{
@@ -56,7 +55,10 @@ nav a{
     color: #333333;
     font-weight: bold;
     text-decoration: none;
+    padding: 0 10px 0 10px;
 }
+
+/* não achei um jeito de separar o HOME e POST e também colocá-los para a eaquerda */
 
 nav a:hover{
     background-image: url(../imagens/Indicator.png);
@@ -64,60 +66,54 @@ nav a:hover{
     background-position-y: bottom;
 }
 
-nav a:active{
-    background-image: url(../imagens/Indicator.png);
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-}
+/* tentativa de deixar o indicador rosa fixo embaixo */
+
 
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
-    width: 100%;
-    display: inline-block;
 }
 
-#home{
+.home{
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 12px;
-    padding: 200px 0 0 200px;
+    padding: 100px 0 10px 180px;
 }
 
 .homeblog h3{
-    padding: 20px 0 0 200px;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: #FFFFFF;
     font-weight: bold;
-    width:400px;
     line-height: normal;
+    padding: 0 0 10px 180px;
 }
 
 .homeblog p{
+    font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-size: 18px;
-    padding: 20px 0 200px 200px;
-    width:400px;
+    width: 600px;
     text-align: justify;
     line-height: normal;
+    padding-left: 180px;
 }
 
-.imgmoco{
-    float: right;
+.col-md-6{
+    padding-top: 30px;
+}
+
+.caminho{
+    margin-bottom:-50px;
     width: auto;
-    padding: 30px 170px;
 }
 
-.homeblog > .imgmoco, .textinho{
-    display: inline-block;
-}
+/* não consegui deixar ele inteiro, quase ctz que fiz gambiarra, mas usei o bootstrap kkk */
 
-.nft{
-    position: relative;
-    display: block;
-    margin: 20px 300px;
+.container{
     padding-top: 50px;
-    height: 1000px;
 }
 
 .img-post{
@@ -127,32 +123,17 @@ nav a:active{
     position: relative;
 }
 
-.merryxmas{
-    position: relative;
-    display: block;
-    margin: 20px 300px;
-    padding-top: 50px;
-    height: 1000px;
-}
-
-.smartcontracts{
-    position: relative;
-    display: block;
-    margin: 20px 300px;
-    padding-top: 50px;
-    height: 1000px;
-}
-
 .parte-de-baixo{
     background-image: url(../imagens/borda.png);
     background-repeat: no-repeat;
     padding-bottom: 200px;
     margin-top: -30px;
     margin-left: 2px;
+    text-align: center;
+    margin-right: 100px;
 }
 
 .titulo-post{
-    text-align: center;
     text-transform: uppercase;
     font-size: 32px;
     font-weight: bold;
@@ -162,25 +143,28 @@ nav a:active{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    padding: 30px 0 10px 0;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .data{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 400px;
     margin: 0 auto;
     font-size: 10px;
     padding: 0 0 20px 0;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 10px 0;
 }
 
 .texto{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 900px;
     margin: 0 auto;
     font-size: 16px;
     line-height: normal;
-    padding: 20px 0 50px 0;
+    padding: 20px 0 10px 0;
 }
 
 .descubra{
@@ -189,14 +173,15 @@ nav a:active{
     border-radius: 50px;
     margin: 0 auto;
     width: 200px;
-    height: 60px;
+    height: 70px;
 }
 
 .descubra p{
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    padding-top: 20px;
     color: white;
+    font-weight: bold;
+    margin: 20px 50px;
 }
 
 footer{
@@ -206,8 +191,9 @@ footer{
 }
 
 footer > p{
+    font-family: 'Poppins', sans-serif;
     color: #989898;
-    padding: 30px 50px 20px 20px;
+    padding: 10px 100px;
     clear:right;
     font-size: 12px;
 }
@@ -216,5 +202,12 @@ footer > p{
     background-position: center;
     background-image: url(../imagens/bitcoinbranco.png);
     background-repeat: no-repeat;
-    padding: 10px 10px;
+}
+
+.logobranco{
+    padding-left: 30px;
+}
+
+.logos{
+    padding: 10px 100px;
 }
