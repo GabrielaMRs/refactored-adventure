@@ -1,3 +1,7 @@
+html{
+    width:100;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -44,6 +48,7 @@ header {
     color:yellow;
 }
 /* sigo sem entender o motivo de não ter funcionado... o simbolo não pode ser considerado child? */
+
 nav {
     padding: 0 90px 0 90px;
 }
@@ -69,6 +74,7 @@ nav a:hover{
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
 }
+
 .home{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -101,6 +107,7 @@ nav a:hover{
 }
 .caminho{
     margin-bottom:-50px;
+    width: 100%;
 }
 
 /* não consegui deixar ele inteiro, quase ctz que fiz gambiarra, mas usei o bootstrap kkk */
@@ -203,10 +210,14 @@ footer > p{
 
 /* css post */
 
-.img-2nd{
+.secondpage{
+    background-color: white;
     width: 100%;
 }
 
+.img-2nd{
+    width: 100%;
+}
 
 .secondpage h4{
     font-family: 'Poppins', sans-serif;
@@ -214,14 +225,33 @@ footer > p{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 16%;
+    width: 1000px;
 }
 
 .secondpage p{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
     text-transform: uppercase;
     font-size: 10px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 65%;
+    left: 45%;
+    word-spacing: 10px;
+    font-weight: lighter;
 }
+
+.caminho2{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    left: 0%;
+}
+
 
 .txt2nd p{
     font-family: 'Poppins', sans-serif;
@@ -232,6 +262,29 @@ footer > p{
     padding-bottom: 20px;
     margin-left: 270px;
     margin-right: 270px
+}
+
+.scrollToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+    background-color: #CCCCCC;
+    transition: 1s;
+    opacity: 40%;
+}
+
+.scrollToTop:hover{
+    font-size: 2.5em;
+    width: 60px;
+    color: #FD749B;
+    opacity: 20%;
 }
 
 .avalia{
