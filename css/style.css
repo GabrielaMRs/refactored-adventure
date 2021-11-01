@@ -1,25 +1,21 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
 header {
     padding: 10px 0 10px 0;
     min-height: auto;
     margin: 0 auto;
 }
-
 .menu{
     font-family: 'Poppins', sans-serif;
     display: inline;
 }
-
 .nuvem{
     background-position: center;
     background-image: url(../imagens/bitcoin1.png);
     background-repeat: no-repeat;
     padding: 0 10px;
 }
-
 .estrela{
     background: linear-gradient(#FD749B, #281ACB);
     border: 2px solid white;
@@ -27,7 +23,6 @@ header {
     width: 200px;
     height: 60px;
 }
-
 .estrela p{
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -35,21 +30,16 @@ header {
     text-align: center;
     padding-top: 15px;
 }
-
 .estrela p:last-child{
     color:yellow;
 }
-
 /* sigo sem entender o motivo de não ter funcionado... o simbolo não pode ser considerado child? */
-
 nav {
     padding: 0 90px 0 90px;
 }
-
 nav li {
     display: inline-block;
 }
-
 nav a{
     font-size: 14px;
     color: #333333;
@@ -57,22 +47,16 @@ nav a{
     text-decoration: none;
     padding: 0 10px 0 10px;
 }
-
 /* não achei um jeito de separar o HOME e POST e também colocá-los para a eaquerda */
-
 nav a:hover{
     background-image: url(../imagens/Indicator.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
 }
-
 /* tentativa de deixar o indicador rosa fixo embaixo */
-
-
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
 }
-
 .home{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -80,7 +64,6 @@ nav a:hover{
     font-size: 12px;
     padding: 100px 0 10px 180px;
 }
-
 .homeblog h3{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
@@ -90,7 +73,6 @@ nav a:hover{
     line-height: normal;
     padding: 0 0 10px 180px;
 }
-
 .homeblog p{
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
@@ -100,11 +82,9 @@ nav a:hover{
     line-height: normal;
     padding-left: 180px;
 }
-
 .col-md-6{
     padding-top: 30px;
 }
-
 .caminho{
     margin-bottom:-50px;
     width: auto;
@@ -112,18 +92,15 @@ nav a:hover{
 }
 
 /* não consegui deixar ele inteiro, quase ctz que fiz gambiarra, mas usei o bootstrap kkk */
-
 .container{
     padding-top: 50px;
 }
-
 .img-post{
     border: 2px solid transparent;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     position: relative;
 }
-
 .parte-de-baixo{
     background-image: url(../imagens/borda.png);
     background-repeat: no-repeat;
@@ -133,7 +110,6 @@ nav a:hover{
     text-align: center;
     margin-right: 100px;
 }
-
 .titulo-post{
     text-transform: uppercase;
     font-size: 32px;
@@ -147,7 +123,6 @@ nav a:hover{
     padding-top: 50px;
     font-family: 'Poppins', sans-serif;
 }
-
 .data{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -157,7 +132,6 @@ nav a:hover{
     padding: 0 0 20px 0;
     padding: 15px 0 10px 0;
 }
-
 .texto{
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -165,9 +139,8 @@ nav a:hover{
     margin: 0 auto;
     font-size: 16px;
     line-height: normal;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 30px 0;
 }
-
 .descubra{
     background: linear-gradient(#FD749B, #281ACB);
     border: 2px solid white;
@@ -176,7 +149,6 @@ nav a:hover{
     width: 200px;
     height: 70px;
 }
-
 .descubra p{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -184,13 +156,11 @@ nav a:hover{
     font-weight: bold;
     margin: 20px 50px;
 }
-
 footer{
     background-color: black;
     min-height: 50px;
     width: 100%;
 }
-
 footer > p{
     font-family: 'Poppins', sans-serif;
     color: #989898;
@@ -206,24 +176,15 @@ footer > p{
     background-repeat: no-repeat;
 }
 
+.logobranco{
+    padding-left: 30px;
+}
+
 .logos{
     padding: 10px 100px;
 }
 
 /* css post */
-
-.img-2nd{
-    width: 100%;
-}
-
-.secondpage{
-    display: inline-block;
-    position: relative;
-}
-
-.secondpage img-2nd, h4, p{
-    position:absolute;
-}
 
 .secondpage h4{
     font-family: 'Poppins', sans-serif;
@@ -231,9 +192,6 @@ footer > p{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    color: white;
-    padding: 230px 300px;
-    text-align: center;
 }
 
 .secondpage p{
@@ -241,17 +199,11 @@ footer > p{
     text-align: center;
     text-transform: uppercase;
     font-size: 10px;
-    padding-top: 340px;
-    color: white;
-}
-
-.txt2nd{
-    padding-bottom: 100px;
 }
 
 .txt2nd p{
-    position: relative;
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     text-align:left;
     font-size: 16px;
     line-height: normal;
