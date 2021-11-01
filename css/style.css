@@ -11,7 +11,9 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: center;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 10px 0;
+    background-color:#F5719C;
+    color: white;
 }
 
 .menu{
