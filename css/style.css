@@ -6,6 +6,14 @@ header {
     min-height: auto;
     margin: 0 auto;
 }
+
+#resultado{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
 .menu{
     font-family: 'Poppins', sans-serif;
     display: inline;
@@ -45,6 +53,7 @@ nav a{
     color: #333333;
     font-weight: bold;
     text-decoration: none;
+    margin-right: 70px;
 }
 /* não achei um jeito de separar o HOME e POST e também colocá-los para a eaquerda */
 
