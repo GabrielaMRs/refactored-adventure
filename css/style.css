@@ -45,15 +45,16 @@ nav a{
     color: #333333;
     font-weight: bold;
     text-decoration: none;
-    padding: 0 10px 0 10px;
 }
 /* não achei um jeito de separar o HOME e POST e também colocá-los para a eaquerda */
+
 nav a:hover{
     background-image: url(../imagens/Indicator.png);
     background-repeat: no-repeat;
     background-position-y: bottom;
 }
 /* tentativa de deixar o indicador rosa fixo embaixo */
+
 .homeblog{
     background: linear-gradient(#FD749B, #281ACB);
 }
@@ -63,6 +64,7 @@ nav a:hover{
     color: #FFFFFF;
     font-size: 12px;
     padding: 100px 0 10px 180px;
+    font-weight: lighter;
 }
 .homeblog h3{
     font-family: 'Poppins', sans-serif;
@@ -81,20 +83,21 @@ nav a:hover{
     text-align: justify;
     line-height: normal;
     padding-left: 180px;
+    font-weight: lighter;
 }
 .col-md-6{
     padding-top: 30px;
 }
 .caminho{
     margin-bottom:-50px;
-    width: auto;
-    float:right;
 }
 
 /* não consegui deixar ele inteiro, quase ctz que fiz gambiarra, mas usei o bootstrap kkk */
+
 .container{
     padding-top: 50px;
 }
+
 .img-post{
     border: 2px solid transparent;
     border-top-left-radius: 30px;
@@ -131,6 +134,7 @@ nav a:hover{
     font-size: 10px;
     padding: 0 0 20px 0;
     padding: 15px 0 10px 0;
+    word-spacing: 10px;
 }
 .texto{
     font-family: 'Poppins', sans-serif;
@@ -157,14 +161,16 @@ nav a:hover{
     margin: 20px 50px;
 }
 footer{
+    margin-top: 100px;
     background-color: black;
     min-height: 50px;
     width: 100%;
+    margin-bottom: 300px;
 }
 footer > p{
     font-family: 'Poppins', sans-serif;
     color: #989898;
-    padding: 10px 100px;
+    padding: 0 100px 30px 100px;
     clear:right;
     font-size: 12px;
     opacity: 60%;
@@ -181,10 +187,15 @@ footer > p{
 }
 
 .logos{
-    padding: 10px 100px;
+    padding: 30px 100px;
 }
 
 /* css post */
+
+.img-2nd{
+    width: 100%;
+}
+
 
 .secondpage h4{
     font-family: 'Poppins', sans-serif;
