@@ -9,5 +9,10 @@ let res = document.querySelector('section#result')
 
 function contar() {
     contador ++ 
-    res.innerHTML = `${contador}`
+
+        if(contador > 5){
+            contador --;
+        }
+        res.innerHTML = `${contador}`
+        /* aqui deixei o limite para 5 estrelas */
 }
