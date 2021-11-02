@@ -132,7 +132,7 @@ nav a:hover{
 .parte-de-baixo{
     background-image: url(../imagens/borda.png);
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     margin-top: -30px;
     margin-left: 2px;
     text-align: center;
@@ -295,6 +295,9 @@ footer > p{
     color: #FD749B;
     opacity: 20%;
 }
+.estrelinha{
+    padding-bottom:10px;
+}
 
 .avalia{
     font-weight: bold;
@@ -303,4 +306,5 @@ footer > p{
 button{
     background-color: white;
     border: none;
+    padding-left: 0;
 }
