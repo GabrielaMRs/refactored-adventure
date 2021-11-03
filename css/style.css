@@ -68,7 +68,6 @@ nav a{
     text-decoration: none;
     margin-right: 70px;
 }
-/* não achei um jeito de separar o HOME e POST e também colocá-los para a eaquerda */
 
 nav a:hover{
     background-image: url(../imagens/Indicator.png);
@@ -116,8 +115,6 @@ nav a:hover{
     margin-bottom:-50px;
     width: 100%;
 }
-
-/* não consegui deixar ele inteiro, quase ctz que fiz gambiarra, mas usei o bootstrap kkk */
 
 .container{
     padding-top: 50px;
